@@ -1,0 +1,40 @@
+body{
+    background: url(https://media0.giphy.com/media/l3R9ET6H486piDQcUX/200w.gif?cid=6c09b9525d7636kw4onxiqz0c75nvfiu1ocgjw3llrcvvez9&ep=v1_gifs_search&rid=200w.gif&ct=g)
+}
+p{
+    color:yellow;
+}
+
+div{
+    background: url(https://40.media.tumblr.com/tumblr_m2ev3s8Cn61qbko1eo1_r1_1280.jpg);
+    background-clip: padding-box;
+    background-size: cover;
+    background-position-y: center;
+
+    border-color: blue;
+    border-width: 4px;
+    border-style: dashed;
+}
+.firstDiv{
+    background: black;
+    p{
+        color: fuchsia;
+    }
+}
+
+.secondDiv{
+    background: white;
+}
+#singledout{
+    background: aquamarine;
+}
+.Everything{
+    background: antiquewhite;
+
+    color: black;
+    font-size: xxx-large;
+    font-family: "Baloo Da 2", serif;
+}
+span{
+    background:white;
+}
