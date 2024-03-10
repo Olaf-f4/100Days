@@ -30,12 +30,15 @@ import smtplib
 import random
 
 date = dt.datetime.now()
+x = date.weekday()
+
 my_email = "vikingishly@gmail.com"
 password = "uxpxdrmajodhfolf"
 
-with open("quotes.txt", 'r') as messages:
-    message_list = messages.readlines()
-    if date.day == 10:
+
+if x == 1:  # Tuesday Set day
+    with open("quotes.txt", 'r') as messages:
+        message_list = messages.readlines()
         rm = random.choice(message_list)
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
