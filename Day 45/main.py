@@ -15,7 +15,7 @@ def high_pop():
         user_id = score.get('id')
         r = user_id.replace('score_', '')
 
-        # Get User Score - Remove 'points' from word leaving just points
+        # Get User Score - Remove 'points' from word, leaving you with just the points
         strip_score = score.get_text().split()
         for word in strip_score:
             if 'points' in word:
